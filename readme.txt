@@ -1,3 +1,4 @@
+
 Opći uvjeti korištenja mobilne aplikacije PlayOff
 
 1. Uvodne odredbe
