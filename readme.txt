@@ -1,6 +1,6 @@
 Opći uvjeti korištenja mobilne aplikacije PlayOff
 
-# 1. Uvodne odredbe
+1. Uvodne odredbe
 Ovim se Općim uvjetima regulira korištenje mobilne aplikacije PlayOff te usluga koje ta aplikacija nudi.
 
 Pojedini pojmovi koji se koriste u ovim Općim uvjetima imaju sljedeće značenje:
