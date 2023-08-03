@@ -1,4 +1,4 @@
-# Opći uvjeti korištenja mobilne aplikacije PlayOff
+Opći uvjeti korištenja mobilne aplikacije PlayOff
 
 ##1. Uvodne odredbe
 Ovim se Općim uvjetima regulira korištenje mobilne aplikacije mFina te usluga koje ta aplikacija nudi.
