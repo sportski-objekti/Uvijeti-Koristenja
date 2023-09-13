@@ -16,7 +16,7 @@ Administrator – fizička osoba koja ima ulogu administratora sportske usluge u
 
 Zaposlenik - fizička osoba koja ima ulogu zaposlenika sportske usluge unutar sportskog objekta. Zaposlenik može imati ograničeniji pristup značajkama aplikacije u odnosu na adminisratora.
 
-Mobilni telefon – mobilni telefon na kojem postoji mogućnost instaliranja dodatnih aplikacija i čiji operacijski sustav udovoljava tehničkim preduvjetima za korištenje funkcionalnosti mFina mobilne aplikacije.
+Mobilni telefon – mobilni telefon na kojem postoji mogućnost instaliranja dodatnih aplikacija i čiji operacijski sustav udovoljava tehničkim preduvjetima za korištenje funkcionalnosti PlayOff mobilne aplikacije.
 
 Firebase - platforma koja nudi različite pozadinske usluge (eng. Back-end)
 
@@ -28,11 +28,11 @@ Innovate - obrt preko kojega se sportski objekti i usluge prisvajaju unutar Play
 
 2. Tehnički preduvjeti za korištenje mobilne aplikacije PlayOff
 
-Korisnik se obvezuje da će prije instalacije mobilne aplikacije mFina ispuniti tehničke preduvjete i to:
+Korisnik se obvezuje da će prije instalacije mobilne aplikacije PlayOff ispuniti tehničke preduvjete i to:
 
 mobilni uređaj koji podržava sljedeće operacijske sustave:
 
-                      - Android operacijski sustav – verzija 7.0 (API 24) i iznad
+                  - Android operacijski sustav – verzija 7.0 (API 24) i iznad
 	          - iOS operacijski sustav - verzija 13.0 i iznad
 
 raspoloživi prostor za pohranu podataka na mobilnom uređaju
@@ -48,11 +48,11 @@ dopuštenje za slanje obavijesti koje kontrolira korisnik mobilnog uređaja
 
 Korisnik instalacijom PlayOff aplikacije i prihvaćanjem Općih uvjeta prilikom registracije. Prilikom te akcije prikupljaju se sljedeći podaci:
 
-PlayOff mobilna aplikacija prikuplja podatke o korisnikovoj e-mail adresi, lozinki koja je potrebna za pristup uslugama mobilne aplikacije te ime koje korisnik posjeduje unutar PlayOff aplikacije. Ime unutar PlayOff aplikacije netreba odgovarati pravom imenu korisnika i vidljivo je drugim korisnicima aplikacije. Ovi podaci se koriste u svrhu identificiranja korisnika unutar PlayOff aplikacije. Podaci se mogu koristiti u svrhu poboljšanja proizvoda, usluga, tehničkih rješenja i za marketinške i promotivne akcije.
+PlayOff mobilna aplikacija prikuplja podatke o korisnikovoj e-mail adresi te ime koje korisnik posjeduje unutar PlayOff aplikacije. Unutar PlayOff aplikacije si korisnik zadaje ime. Korisnik odlučuje hoće li drugi korisnici vidjeti ime koje je on odabrao. Ovi podaci se koriste u svrhu identificiranja korisnika unutar PlayOff aplikacije. Podaci se mogu koristiti u svrhu poboljšanja proizvoda, usluga, tehničkih rješenja i za marketinške i promotivne akcije.
 
 Određene usluge koje su bazirane na lokaciji korisnika prikupljaju i spremaju lokaciju mobilnog telefona u trenutku korištenja te usluge. Također, svaka korisnička akcija u mobilnoj aplikaciji je zabilježena u svrhu poboljšanja proizvoda, usluga i tehničkih rješenja.
 
-Korisnik dodatno može obaviti registraciju unutar mFina mobilne aplikacije. U tom slučaju pohranjuju se sljedeći podaci:
+Korisnik dodatno može obaviti registraciju unutar PlayOff mobilne aplikacije. U tom slučaju pohranjuju se sljedeći podaci:
 
 Ukoliko korisnik dozvoli na svome mobilnom uređaju slanje obavijesti od strane PlayOff aplikacije, generira se identifikacijski kod putem Firebase Cloud Messaging sustava. Preko tog indetifikacijskog koda se identificra korisnikov mobitel i šalje mu se notifikacija na isti. Ovaj podatak je zabiležen i unutar Firebase Firestore sustava
 
@@ -70,29 +70,30 @@ Pretraživanje sportskih usluga- korisnik može pretraživati sportske usluge un
 Pregled rasporeda termina - korisnik ima mogućnost pregleda rasporeda termina u određenom vremenskom periodu koji ovisi o sportskom objetku. Korisnik vidi tko dolazi na termin i vidi slobodne termine
 Rezervacija termina - korisnik ima mogućnost rezervirati slobodan termin unutar sportske usluge. Taj termini se može ponavljati periodično svaki tjedan za narednih N tjedana. N je broj koji ovisi o sportskoj usluzi
 Pregled povijesti termina - korisnik ima mogućnost pregleda svih nadolazećih, otkazanih i termina koji se nalaze u prošlosti
+Promjena lozinke
 
 Administratorski dio je dostupan samo administratorima, zaposlenicima i adminu cijele PlayOff aplikacije. Sadrži slijedeće funkcionalnosti:
 
-Pregled detalja svoga sportskog usluga
-Biranje između više sportskih usluga koje administrator nudi
+Pregled detalja sportske usluge
 Pregled rasporeda termina sportske usluge
 Otkazivanje termina sportske usluge
-Manipuliranje članovima sportske usluge
-Manipuliranje detaljima sportske usluge
+Upravljanje članovima sportske usluge
+Upravljanje detaljima sportske usluge
+Promjena lozinke
 
 5. Zaštita osobnih podataka
 
-Informacije korisniku o obradi osobnih podataka prikupljenih korištenjem mFina mobilne aplikacije:
+Informacije korisniku o obradi osobnih podataka prikupljenih korištenjem PlayOff mobilne aplikacije:
 
 Voditelj obrade osobnih podataka: INNOVATE, obrt za računalno programiranje, vl. Marko Kolić, 31000 Osijek, Banova ulica 68
 
-Kontaktni podaci Službenika za zaštitu osobnih podataka Fine: info@play-off.com
+Kontaktni podaci Službenika za zaštitu osobnih podataka Fine: info@theplayoff.com
 
 Osobni podaci prikupljeni korištenjem PlayOff mobilne aplikacije obrađuju se samo u svrhu poboljšanja proizvoda, usluga, tehničkih rješenja i za marketinške i promotivne akcije.
 
 Osobni podaci čuvati će se dvije godine nakon zadnje korisničke akcije u PlayOff mobilnoj aplikaciji. Ovi podaci ne uključuju indetifikacijske podate korisnika kao što je e-mail, lozinka i ime korisnika unutar aplikacije.
 
-Fizička osoba na koju se odnose osobni podaci koje INNOVATE obrađuje kao voditelj ima pravo zatražiti pristup, ispravak, brisanje, prenosivost i ograničavanje obrade i podnijeti prigovor na obradu osobnih podataka koji se na nju odnose, ako su za to ispunjene propisane pretpostavke. Zahtjev/i u vezi s prethodnim pravima podnose se u digitalnom obliku na info@play-off.com
+Fizička osoba na koju se odnose osobni podaci koje INNOVATE obrađuje kao voditelj ima pravo zatražiti pristup, ispravak, brisanje, prenosivost i ograničavanje obrade i podnijeti prigovor na obradu osobnih podataka koji se na nju odnose, ako su za to ispunjene propisane pretpostavke. Zahtjev/i u vezi s prethodnim pravima podnose se u digitalnom obliku na info@theplayoff.com
 
 Prigovor na obradu osobnih podataka možete podnijeti INNOVATE obrtu u pisanom obliku na adresu 31000 Osijek, Banova ulica 68 ili u digitalnom obliku na  info@play-off.com
 
@@ -105,13 +106,13 @@ Korisnik je sam dužan definirati pin za korisničke usluge koje zahtijevaju pin
 
 7. Naknada
 
-Za korištenje  mobilne aplikacije mFina se ne plaća naknada.
+Za korištenje  mobilne aplikacije PlayOff se ne plaća naknada.
 
 8. Primjena Općih uvjeta
 
 Ovi Opći uvjeti objavit će se na internetskim stranicama PlayOff aplikacije.
 
-Fina zadržava pravo naknadne izmjene i dopune Općih uvjeta o čemu je dužna obavijestiti korisnika objavom na internetskim strancima PlayOff aplikacije.
+INNOVATE zadržava pravo naknadne izmjene i dopune Općih uvjeta o čemu je dužna obavijestiti korisnika objavom na internetskim strancima PlayOff aplikacije.
 
 8. Rješavanje spora
 
