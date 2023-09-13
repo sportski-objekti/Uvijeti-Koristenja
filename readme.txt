@@ -14,7 +14,7 @@ Korisnik – fizička osoba koja koristi mobilnu aplikaciju PlayOff. Ona može b
 
 Administrator – fizička osoba koja ima ulogu administratora sportske usluge unutar sportskog objekta. Administrator ima pristup svim značajkama aplikacije vezenih za sportsku uslugu
 
-Zaposlenik - fizička osoba koja ima ulogu zaposlenika sportske usluge unutar sportskog objekta. Zaposlenik može imati ograničeniji pristup značajkama aplikacije u odnosu na adminisratora.
+Zaposlenik - fizička osoba koja ima ulogu zaposlenika sportske usluge unutar sportskog objekta. Zaposlenik može imati ograničeniji pristup značajkama aplikacije u odnosu na administratora.
 
 Mobilni telefon – mobilni telefon na kojem postoji mogućnost instaliranja dodatnih aplikacija i čiji operacijski sustav udovoljava tehničkim preduvjetima za korištenje funkcionalnosti PlayOff mobilne aplikacije.
 
@@ -39,11 +39,6 @@ raspoloživi prostor za pohranu podataka na mobilnom uređaju
 
 pristup internetu i dopuštenje za korištenje interneta koje kontrolira korisnik mobilnog uređaja
 
-Od ostalih preduvjeta za određene opcije unutar mobilne aplikacije potrebno je:
-
-
-dopuštenje za slanje obavijesti koje kontrolira korisnik mobilnog uređaja
-
 3.  Zasnivanje korisničkog odnosa
 
 Korisnik instalacijom PlayOff aplikacije i prihvaćanjem Općih uvjeta prilikom registracije. Prilikom te akcije prikupljaju se sljedeći podaci:
@@ -54,15 +49,15 @@ Određene usluge koje su bazirane na lokaciji korisnika prikupljaju i spremaju l
 
 Korisnik dodatno može obaviti registraciju unutar PlayOff mobilne aplikacije. U tom slučaju pohranjuju se sljedeći podaci:
 
-Ukoliko korisnik dozvoli na svome mobilnom uređaju slanje obavijesti od strane PlayOff aplikacije, generira se identifikacijski kod putem Firebase Cloud Messaging sustava. Preko tog indetifikacijskog koda se identificra korisnikov mobitel i šalje mu se notifikacija na isti. Ovaj podatak je zabiležen i unutar Firebase Firestore sustava
+Ako korisnik dozvoli na svome mobilnom uređaju slanje obavijesti od strane PlayOff aplikacije, generira se identifikacijski kod putem Firebase Cloud Messaging sustava. Preko tog indetifikacijskog koda se identificra korisnikov mobitel i šalje mu se notifikacija na isti. Ovaj podatak je zabiležen i unutar Firebase Firestore sustava
 
 Trenutno se nikakvi drugi podaci ne prikupljaju od korisnika
 
 4. Funkcionalnosti PlayOff mobilne aplikacije
 
-PlayOff mobilna aplikacija se može razdvojiti na 2 dijela: korisnički i administratorski.
+PlayOff aplikacija omogućava različite funkcionalnosti za korisnike aplikacije i administratore.
 
-Korisnički dio je dostupan svima, i on sadrži slijedeće funkcionalnosti:
+Korisnički dio je dostupan svima, i on sadrži sljedeće funkcionalnosti:
 
 Pregled sportskih usluga u gradu: korisnik ima mogućnost pregleda svih sportskih usluga koji su registrirani unutar PlayOff mobilne aplikacije
 Pregled detalja sportskih usluga- korisnik ima mogućnost pregleda radnog vremena, slika, i drugih informacija koje su prikazane. 
@@ -70,7 +65,7 @@ Pretraživanje sportskih usluga- korisnik može pretraživati sportske usluge un
 Pregled rasporeda termina - korisnik ima mogućnost pregleda rasporeda termina u određenom vremenskom periodu koji ovisi o sportskom objetku. Korisnik vidi tko dolazi na termin i vidi slobodne termine
 Rezervacija termina - korisnik ima mogućnost rezervirati slobodan termin unutar sportske usluge. Taj termini se može ponavljati periodično svaki tjedan za narednih N tjedana. N je broj koji ovisi o sportskoj usluzi
 Pregled povijesti termina - korisnik ima mogućnost pregleda svih nadolazećih, otkazanih i termina koji se nalaze u prošlosti
-Promjena lozinke
+Upravljanje vidljivosti korisničkog imena unutar aplikacije
 
 Administratorski dio je dostupan samo administratorima, zaposlenicima i adminu cijele PlayOff aplikacije. Sadrži slijedeće funkcionalnosti:
 
@@ -79,7 +74,6 @@ Pregled rasporeda termina sportske usluge
 Otkazivanje termina sportske usluge
 Upravljanje članovima sportske usluge
 Upravljanje detaljima sportske usluge
-Promjena lozinke
 
 5. Zaštita osobnih podataka
 
@@ -91,7 +85,7 @@ Kontaktni podaci Službenika za zaštitu osobnih podataka Fine: info@theplayoff.
 
 Osobni podaci prikupljeni korištenjem PlayOff mobilne aplikacije obrađuju se samo u svrhu poboljšanja proizvoda, usluga, tehničkih rješenja i za marketinške i promotivne akcije.
 
-Osobni podaci čuvati će se dvije godine nakon zadnje korisničke akcije u PlayOff mobilnoj aplikaciji. Ovi podaci ne uključuju indetifikacijske podate korisnika kao što je e-mail, lozinka i ime korisnika unutar aplikacije.
+Osobni podaci čuvat će se dvije godine nakon zadnje korisničke akcije u PlayOff mobilnoj aplikaciji. Ovi podaci ne uključuju indetifikacijske podate korisnika kao što je e-mail, lozinka i ime korisnika unutar aplikacije.
 
 Fizička osoba na koju se odnose osobni podaci koje INNOVATE obrađuje kao voditelj ima pravo zatražiti pristup, ispravak, brisanje, prenosivost i ograničavanje obrade i podnijeti prigovor na obradu osobnih podataka koji se na nju odnose, ako su za to ispunjene propisane pretpostavke. Zahtjev/i u vezi s prethodnim pravima podnose se u digitalnom obliku na info@theplayoff.com
 
@@ -117,6 +111,3 @@ INNOVATE zadržava pravo naknadne izmjene i dopune Općih uvjeta o čemu je duž
 8. Rješavanje spora
 
 INNOVATE i korisnik će eventualne nesuglasice riješiti sporazumom, u protivnom nadležan je sud u Osijeku.
-
- 
-
